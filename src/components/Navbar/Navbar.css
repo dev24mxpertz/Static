@@ -1,0 +1,301 @@
+.Navbar_main {
+  width: 100%;
+  background-color: black !important;
+  /* padding: 10px; */
+}
+
+.Navbar_upper_div {
+  /* position: absolute;
+  top: 0%;
+  /* height: 10vh; */
+  /* transition: all 2s ease;  */
+  width: 100%;
+  /* height: 2vh; */
+  background-color: white;
+  display: none;
+}
+
+.Navbar_main_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+  transition: top 0.3s ease-in-out;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 11%,
+    rgba(0, 0, 0, 1) 69%,
+    rgba(255, 255, 255, 0) 95%
+  );
+  /* border-bottom: 2px solid black; */
+}
+
+.Navbar_main_div::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* height: 50%; */
+  content: "";
+  filter: blur(20px); /* adjust the blur amount */
+  background: inherit; /* inherit the background from the parent element */
+}
+
+.Navbar_left_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 6vmax;
+  /* height: ; */
+  width: 300px;
+  /* padding: 10px; */
+  background-color: royalblue;
+  background-image: url("../../Assets/navrattanlogo.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.Navbar_right_div {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+}
+
+.link_div {
+  /* padding: 5px 12px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.navbar_link {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar_link:hover {
+  color: #f9e488;
+}
+.lower_navbar_link {
+  text-decoration: none;
+  color: royalblue;
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: block;
+}
+
+.Navbar_hidden {
+  position: none;
+  width: 100%;
+  background-color: white;
+  transition: all 2s ease-in; /* Add transition to all properties with 2s duration and ease timing function */
+}
+
+.Navbar_transparent {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the navbar is above other content */
+  background-color: transparent;
+  transition: all 1s ease-out; /* Add transition to all properties with 2s duration and ease timing function */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Navbar_fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999; /* Ensure the navbar is above other content */
+  background-color: white;
+  transition: all 1s ease-out; /* Add transition to all properties with 2s duration and ease timing function */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.LowerNav_main {
+  position: absolute;
+  width: 720px;
+  padding: 20px;
+  bottom: -950%;
+  left: -80%;
+  display: flex;
+  /* flex-direction: column !important; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  /* transform: translate(-25%, 70%); */
+  z-index: 999;
+}
+
+.LowerNav_main_block {
+  display: inline-block;
+  margin-right: 20px;
+}
+.LowerNav_main_block > Link {
+  display: inline-block;
+  margin-top: 20px;
+}
+.displaylowernav1 {
+  display: flex;
+}
+
+.nodisplaylowernav1 {
+  display: none;
+}
+
+/* ---------------------------------------------LowerNav_main2 */
+
+.LowerNav_main2 {
+  position: absolute;
+  padding: 20px;
+  bottom: -190%;
+  width: 600px;
+  left: 25%;
+  display: flex;
+  /* flex-direction: column !important; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  transform: translate(-25%, 70%);
+  z-index: 999;
+}
+
+.LowerNav_main2_block {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.displaylowernav2 {
+  display: flex;
+}
+
+.nodisplaylowernav2 {
+  display: none;
+}
+
+/* -----------------------------------------------LowerNav_main3 */
+
+.LowerNav_main3 {
+  position: absolute;
+  padding: 20px;
+  bottom: -210%;
+  width: 200px;
+  left: 38%;
+  display: flex;
+  /* flex-direction: column !important; */
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  transform: translate(-25%, 70%);
+  z-index: 999;
+}
+
+.LowerNav_main3_block {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.displaylowernav3 {
+  display: flex;
+}
+
+.nodisplaylowernav3 {
+  display: none;
+}
+
+/* -------------------------------------------------------------- */
+.Navbar_menu_div {
+  display: none;
+}
+
+/*  */
+
+.Nav_responsive_div {
+  width: 93%;
+  padding: 20px;
+  display: flex;
+    height: 50vh;
+  overflow-y: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  justify-content: space-evenly;
+  position: fixed;
+  top: 13%;
+  left: 4%;
+  z-index: 999;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.Nav_responsive_link_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: red; */
+  margin-bottom: 5px;
+  padding: 5px;
+  border-bottom: 1px solid #f9e488;
+}
+
+.Nav_responsive_Plus {
+  background-color: white;
+  padding: 2px 5px;
+  font-size: 18px;
+  font-weight: 900;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Nav_responsive_LowerNav_main {
+  /* background-color: blue; */
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+  .Navbar_upper_div {
+    display: none;
+  }
+  .Navbar_left_div {
+    width: 300px;
+    height: 10vmax;
+  }
+  .Navbar_right_div {
+    display: none;
+  }
+  .Navbar_menu_div {
+    display: inherit;
+  }
+  .navbar_link {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: black;
+  }
+  .lower_navbar_link {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px;
+  }
+
+  .LowerNav_main {
+    bottom: -560%;
+  }
+
+  .LowerNav_main2 {
+    bottom: -220%;
+    left: 18%;
+  }
+}

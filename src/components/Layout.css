@@ -1,0 +1,5 @@
+.Main_Layout_Container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}

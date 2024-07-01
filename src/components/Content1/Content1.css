@@ -1,0 +1,156 @@
+/* .Content1_main{
+  width: 100%;
+  height: 50vh;
+  background-color: red;
+  padding: 20px;
+  position: relative;
+  background-image: url("../../Assets//himanshu-verma.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Content1_main_overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.2);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Content1_main_overlay_h3{
+  color: white;
+  font-size: 32px;
+}
+
+.Content1_main_overlay_circle{
+  font-size: 22px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+
+/* -------------------------------------------------- */
+
+
+/* *,*:after,*:before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing:"border-box";
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+} */
+/* 
+.wrapper_outer{
+  height: 100vh ;
+  overflow: hidden;
+}
+
+.wrapper{
+  height: 100%;
+  overflow-x: hidden;
+  perspective: 1px;
+
+}
+.parallax_section{
+  min-height: 40vh;
+  background-color: red;
+  padding: 50px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.parllax_bg{
+  background-image: url(../../Assets/himanshu-verma.jpg);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: 21;
+  min-height:100%;
+  transform: translate3d(0,0,-1px) scale(2);
+} */
+
+.wrapper_outer {
+  height: 65vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.parallax_section {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax_bg {
+  background-image: url('../../Assets/himanshu-verma.jpg'); /* Adjust the path as needed */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 2;
+  height: 100%;
+  /* transform: translateY(100%); */
+}
+
+.overlay h2 {
+  color: white;
+  font-size: 2rem;
+}
+
+.circle_twitter{
+  width: 60px;
+  height: 60px;
+  margin-top: 50px;
+  background-color: grey;
+  border: 1px solid white;
+  color: black;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+border-radius: 50%;
+}

@@ -1,0 +1,112 @@
+.Legacy_main_div{
+    width: 100%;
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+}
+.Legacy_main_upper{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.Legacy_main_upper_h2{
+    color:black;
+font-size: 28px;
+}
+
+.Legacy_main_upper_button{
+    margin-left: 20px;
+    padding: 20px !important;
+}
+
+.Legacy_main_lower{
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Legacy_main_lower_h4{
+    font-size: 22px;
+    color: #f9e488;
+}
+
+
+.Legacy_main_lower_line{
+    padding: 2px;
+    width: 5%;
+    background-color: #f9e488;
+}
+
+.Legacy_main_lower_content_div{
+    margin-top: 50px;
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: white; */
+}
+.Legacy_main_lower_content_div_circle{
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    border: 4px solid #f9e488;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+.Legacy_main_lower_content_div_circle_line{
+    background-color: white;
+    padding: 2px;
+    width: 40%;
+}
+
+.Legacy_main_lower_content_div_circle_p{
+    color:white;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+
+
+
+@media only screen and (max-width: 800px) {
+  .Legacy_main_div{
+    height: initial;
+    /* padding: 20px; */
+  }
+  .Legacy_main_lower_h4{
+    margin-top: 20px;
+  }
+  .Legacy_main_lower_content_div{
+    flex-direction: column;
+  }
+  .Legacy_main_lower_content_div_circle{
+      width: 78%;
+      height: 30vh;
+      /* padding: 20px 120px; */
+      margin-bottom: 20px;
+  }
+  .Legacy_main_lower_content_div_circle>h5{
+    font-size: 14px;
+  } 
+  .Legacy_main_lower_content_div_circle_line{
+    width: 30px;
+  }
+
+}
