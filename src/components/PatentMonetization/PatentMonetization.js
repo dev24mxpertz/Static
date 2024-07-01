@@ -67,9 +67,6 @@ const PatentMonetization = () => {
           </div>
         </div>
         <div className="PatentMonetization_main_content">
-          <div className="PatentMonetization_main_content_left_box">
-            <img src={imag} alt={imag} />
-          </div>
           <div className="PatentMonetization_main_content_right_box">
             <h4 className="PatentMonetization_main_content_right_box_h4">
               Patent Monetization
@@ -99,9 +96,12 @@ const PatentMonetization = () => {
               asset or the enforcement of the patents.{" "}
             </p>
           </div>
+          <div className="PatentMonetization_main_content_left_box">
+            <img src={imag} alt={imag} />
+          </div>
         </div>
         <div className="PatentMonetization_Discription_content_div">
-          <InvesterPage/>
+          <InvesterPage />
           <Footer />
         </div>
       </div>

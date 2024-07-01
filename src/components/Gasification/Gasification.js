@@ -69,9 +69,6 @@ const Gasification = () => {
         </div>
       </div>
       <div className="Gasification_main_content">
-        <div className="Gasification_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="Gasification_main_content_right_box">
           <h4 className="Gasification_main_content_right_box_h4">
             Thermo Chemical Gasification
@@ -126,6 +123,9 @@ const Gasification = () => {
             </p>
           </div>
         </div>
+        <div className="Gasification_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="Gasification_Discription_content_div">
         <div className="Gasification_Discription_content_header">
@@ -152,7 +152,7 @@ const Gasification = () => {
         <div className="Gasification_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

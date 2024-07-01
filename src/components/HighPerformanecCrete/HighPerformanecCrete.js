@@ -68,9 +68,6 @@ const HighPerformanecCrete = () => {
         </div>
       </div>
       <div className="HighPerformanecCrete_main_content">
-        <div className="HighPerformanecCrete_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="HighPerformanecCrete_main_content_right_box">
           <h4 className="HighPerformanecCrete_main_content_right_box_h4">
             High Performance Crete
@@ -127,6 +124,9 @@ const HighPerformanecCrete = () => {
             </p>
           </div>
         </div>
+        <div className="HighPerformanecCrete_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="HighPerformanecCrete_Discription_content_div">
         <div className="HighPerformanecCrete_Discription_content_header">
@@ -152,7 +152,7 @@ const HighPerformanecCrete = () => {
         <div className="HighPerformanecCrete_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

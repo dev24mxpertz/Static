@@ -57,9 +57,6 @@ const BasaltMining = () => {
         </div>
       </div>
       <div className="BasaltMining_main_content">
-        <div className="BasaltMining_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="BasaltMining_main_content_right_box">
           <h4 className="BasaltMining_main_content_right_box_h4">
             Basalt Mining
@@ -100,6 +97,9 @@ const BasaltMining = () => {
             </p>
           </div>
         </div>
+        <div className="BasaltMining_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="BasaltMining_Discription_content_div">
         <div className="BasaltMining_Discription_content_header">
@@ -119,7 +119,7 @@ const BasaltMining = () => {
         <div className="BasaltMining_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

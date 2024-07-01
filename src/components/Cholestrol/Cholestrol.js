@@ -69,9 +69,6 @@ const Cholestrol = () => {
         </div>
       </div>
       <div className="Cholestrol_main_content">
-        <div className="Cholestrol_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="Cholestrol_main_content_right_box">
           <h4 className="Cholestrol_main_content_right_box_h4">
             Cholesterol Immunization
@@ -117,6 +114,9 @@ const Cholestrol = () => {
             </p>
           </div>
         </div>
+        <div className="Cholestrol_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="Cholestrol_Discription_content_div">
         <div className="Cholestrol_Discription_content_header">
@@ -142,7 +142,7 @@ const Cholestrol = () => {
         <div className="Cholestrol_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

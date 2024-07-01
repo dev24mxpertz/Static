@@ -57,9 +57,6 @@ const SewageSludge = () => {
         </div>
       </div>
       <div className="SewageSludge_main_content">
-        <div className="SewageSludge_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="SewageSludge_main_content_right_box">
           <h4 className="SewageSludge_main_content_right_box_h4">
             Sewage Sludge Incinerator
@@ -113,6 +110,9 @@ const SewageSludge = () => {
             </p>
           </div>
         </div>
+        <div className="SewageSludge_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="SewageSludge_Discription_content_div">
         <div className="SewageSludge_Discription_content_header">
@@ -139,7 +139,7 @@ const SewageSludge = () => {
         <div className="SewageSludge_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

@@ -67,9 +67,6 @@ const Invest = () => {
           </div>
         </div>
         <div className="Invest_main_content">
-          <div className="Invest_main_content_left_box">
-            <img src={imag} alt={imag} />
-          </div>
           <div className="Invest_main_content_right_box">
             <h4 className="Invest_main_content_right_box_h4">Invest</h4>
             <p className="Invest_main_content_right_box_p">
@@ -99,9 +96,12 @@ const Invest = () => {
               of the parties concerned.{" "}
             </p>
           </div>
+          <div className="Invest_main_content_left_box">
+            <img src={imag} alt={imag} />
+          </div>
         </div>
         <div className="Invest_Discription_content_div">
-          <InvesterPage/>
+          <InvesterPage />
           <Footer />
         </div>
       </div>

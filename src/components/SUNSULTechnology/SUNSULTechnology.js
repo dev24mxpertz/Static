@@ -60,9 +60,6 @@ const SUNSULTechnology = () => {
         </div>
       </div>
       <div className="SUNSULTechnology_main_content">
-        <div className="SUNSULTechnology_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="SUNSULTechnology_main_content_right_box">
           <h4 className="SUNSULTechnology_main_content_right_box_h4">
             SUNSUL Technology
@@ -150,6 +147,9 @@ const SUNSULTechnology = () => {
               Amplification System{" "}
             </p>
           </div>
+        </div>
+        <div className="SUNSULTechnology_main_content_left_box">
+          <img src={imag} alt={imag} />
         </div>
       </div>
       <div className="SUNSULTechnology_Discription_content_div">

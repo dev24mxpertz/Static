@@ -68,9 +68,6 @@ const PatentCommercialization = () => {
         </div>
       </div>
       <div className="PatentCommercialization_main_content">
-        <div className="PatentCommercialization_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="PatentCommercialization_main_content_right_box">
           <h4 className="PatentCommercialization_main_content_right_box_h4">
             Patent Commercialization
@@ -110,9 +107,12 @@ const PatentCommercialization = () => {
             staff in the development of licensable technologies.
           </p>
         </div>
+        <div className="PatentCommercialization_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="PatentCommercialization_Discription_content_div">
-       <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

@@ -68,9 +68,6 @@ const GreenCement = () => {
           </div>
         </div>
         <div className="GreenCement_main_content">
-          <div className="GreenCement_main_content_left_box">
-            <img src={imag} alt={imag} />
-          </div>
           <div className="GreenCement_main_content_right_box">
             <h4 className="GreenCement_main_content_right_box_h4">
               Navrattan Green Crete
@@ -124,6 +121,9 @@ const GreenCement = () => {
               </p>
             </div>
           </div>
+          <div className="GreenCement_main_content_left_box">
+            <img src={imag} alt={imag} />
+          </div>
         </div>
         <div className="GreenCement_Discription_content_div">
           <div className="GreenCement_Discription_content_header">
@@ -149,7 +149,7 @@ const GreenCement = () => {
           <div className="GreenCement_Discription_content_outlet_div">
             <Outlet />
           </div>
-          <InvesterPage/>
+          <InvesterPage />
           <Footer />
         </div>
       </div>

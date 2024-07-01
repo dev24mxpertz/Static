@@ -71,9 +71,6 @@ const PatentLicensing = () => {
         </div>
       </div>
       <div className="PatentLicensing_main_content">
-        <div className="PatentLicensing_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="PatentLicensing_main_content_right_box">
           <h4 className="PatentLicensing_main_content_right_box_h4">
             Patent Licensing
@@ -142,6 +139,9 @@ const PatentLicensing = () => {
             </p>
           </div> */}
         </div>
+        <div className="PatentLicensing_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="PatentLicensing_Discription_content_div">
         {/* <div className="PatentLicensing_Discription_content_header">
@@ -161,7 +161,7 @@ const PatentLicensing = () => {
         <div className="PatentLicensing_Discription_content_outlet_div">
           <Outlet />
         </div> */}
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

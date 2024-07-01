@@ -72,9 +72,6 @@ const BasaltRebar = () => {
         </div>
       </div>
       <div className="BasaltRebar_main_content">
-        <div className="BasaltRebar_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="BasaltRebar_main_content_right_box">
           <h4 className="BasaltRebar_main_content_right_box_h4">
             Basalt Rebar
@@ -115,6 +112,9 @@ const BasaltRebar = () => {
             </p>
           </div>
         </div>
+        <div className="BasaltRebar_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="BasaltRebar_Discription_content_div">
         <div className="BasaltRebar_Discription_content_header">
@@ -134,7 +134,7 @@ const BasaltRebar = () => {
         <div className="BasaltRebar_Discription_content_outlet_div">
           <Outlet />
         </div>
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

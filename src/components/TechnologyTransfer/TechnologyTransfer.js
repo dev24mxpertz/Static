@@ -72,9 +72,6 @@ const TechnologyTransfer = () => {
         </div>
       </div>
       <div className="TechnologyTransfer_main_content">
-        <div className="TechnologyTransfer_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="TechnologyTransfer_main_content_right_box">
           <h4 className="TechnologyTransfer_main_content_right_box_h4">
             Technology Transfer
@@ -144,6 +141,9 @@ const TechnologyTransfer = () => {
             </p>
           </div> */}
         </div>
+        <div className="TechnologyTransfer_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="TechnologyTransfer_Discription_content_div">
         {/* <div className="TechnologyTransfer_Discription_content_header">
@@ -163,7 +163,7 @@ const TechnologyTransfer = () => {
         <div className="TechnologyTransfer_Discription_content_outlet_div">
           <Outlet />
         </div> */}
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

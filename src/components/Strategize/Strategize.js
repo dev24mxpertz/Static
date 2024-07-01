@@ -67,9 +67,6 @@ const Strategize = () => {
         </div>
       </div>
       <div className="Strategize_main_content">
-        <div className="Strategize_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="Strategize_main_content_right_box">
           <h4 className="Strategize_main_content_right_box_h4">Strategize</h4>
           <p className="Strategize_main_content_right_box_p">
@@ -102,10 +99,13 @@ const Strategize = () => {
             claims, and carrying out detailed research to check the validity of
             the claims and develop IP monetization strategy.
           </p>
-       </div>
+        </div>
+        <div className="Strategize_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="Strategize_Discription_content_div">
-          <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>

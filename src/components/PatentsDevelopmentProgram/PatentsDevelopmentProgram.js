@@ -67,9 +67,6 @@ const PatentsDevelopmentProgram = () => {
         </div>
       </div>
       <div className="PatentsDevelopmentProgram_main_content">
-        <div className="PatentsDevelopmentProgram_main_content_left_box">
-          <img src={imag} alt={imag} />
-        </div>
         <div className="PatentsDevelopmentProgram_main_content_right_box">
           <h4 className="PatentsDevelopmentProgram_main_content_right_box_h4">
             Patents Development Program
@@ -96,9 +93,12 @@ const PatentsDevelopmentProgram = () => {
             names.
           </p>
         </div>
+        <div className="PatentsDevelopmentProgram_main_content_left_box">
+          <img src={imag} alt={imag} />
+        </div>
       </div>
       <div className="PatentsDevelopmentProgram_Discription_content_div">
-        <InvesterPage/>
+        <InvesterPage />
         <Footer />
       </div>
     </div>
